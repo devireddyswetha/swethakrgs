@@ -1,0 +1,17 @@
+{
+  "name": "k",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"npm run build:clean && mkdir dist; tsc",
+    "build:clean":"rm -rf dist",
+    "start": "cd dist; node ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^2.6.2"
+  }
+}
